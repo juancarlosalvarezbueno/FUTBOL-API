@@ -1,0 +1,22 @@
+{
+  "name": "futbol-express",
+  "version": "0.1.0",
+  "description": "hola mundo con express",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test_nw": "jest",
+    "test": "node --experimental-vm-modules ./node_modules/jest/bin/jest.js",
+    "dev": "node --watch app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.9.0",
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "nodemon": "^3.1.10"
+  }
+}
