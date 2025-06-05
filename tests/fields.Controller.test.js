@@ -30,7 +30,7 @@ test("getFields responde con los campos correspondientes", () => {
 
     expect(fileService.readJSON).toHaveBeenCalledWith("./data/fields.json"); // Verifica que se llama a readJSON con el archivo correcto linea 5 de fieldsController.js
     expect(res.json).toHaveBeenCalledWith(mockFields);
-    expect(1).toBe(2); //
+
 });
 
 test("createFields agrega un nuevo campo", () => {
